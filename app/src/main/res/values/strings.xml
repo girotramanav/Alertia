@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alertia</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key">AIzaSyDUqrl48H1bY79o4tLxNAAHodLyZVqbvH0</string>
+</resources>
