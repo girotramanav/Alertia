@@ -43,7 +43,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val apiKey = "AIzaSyDUqrl48H1bY79o4tLxNAAHodLyZVqbvH0"
+        val apiKey = getString(R.string.api_key)
 
         if (!Places.isInitialized()) {
             Places.initialize(applicationContext, apiKey)
