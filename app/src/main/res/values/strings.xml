@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Alertia</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="api_key">API_KEY_HERE</string>
+    <string name="api_key">AIzaSyDUqrl48H1bY79o4tLxNAAHodLyZVqbvH0</string>
     <string name="welcome_to_alertia">Welcome to Alertia</string>
     <string name="personvector">personVector</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>

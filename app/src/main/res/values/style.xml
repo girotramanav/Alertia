@@ -3,6 +3,13 @@
 
     <style name="Widget.Unscramble.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="helperTextTextAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="boxStrokeColor">#000000</item>
+        <item name="color">#000000</item>
+        <item name="hintTextColor">#888888</item>
+        <item name="strokeColor">#000000</item>
+        <item name="boxStrokeErrorColor">@color/red_700</item>
+        <item name="errorIconTint">@color/red_700</item>
+        <item name="errorTextColor">@color/red_700</item>
     </style>
 
 </resources>
