@@ -34,8 +34,7 @@
             />
     </androidx.cardview.widget.CardView>
 
-    <fragment
-        xmlns:tools="http://schemas.android.com/tools"
+    <fragment xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
@@ -52,5 +51,43 @@
         android:layout_marginEnd="30sp"
         android:layout_marginBottom="30sp"
         />
+
+    <RelativeLayout
+        android:id="@+id/remainderDialog"
+        android:visibility="gone"
+        android:background="#FF555555"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/remainder_bg"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/remainderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/relax_we_ll_notify_you_when_you_reach_the_destination"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/stopRemainder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/black"
+                android:text="Stop Reminder"
+                android:visibility="gone"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </RelativeLayout>

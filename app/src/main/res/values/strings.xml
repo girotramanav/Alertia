@@ -7,4 +7,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dont_have_an_account_signup"><u>Don\'t have an account? SignUp</u></string>
     <string name="already_have_an_account_login"><u>Already have an Account? LogIn</u></string>
+    <string name="relax_we_ll_notify_you_when_you_reach_the_destination">Relax!! We\'ll notify you when you reach the destination.</string>
 </resources>
